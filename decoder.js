@@ -1,4 +1,4 @@
-// This is a decoder based of the encoder code in the repo
+// This is a decoder based of the encoder file in the repo
 function decode(encodedStr) {
     let decoded = "";
     for (let i = 0; i < encodedStr.length; i++) {
@@ -15,3 +15,5 @@ function decode(encodedStr) {
 }
 const encodeMessage = encode("Code by ybtuti");
 const decodeMessage = decode(encodeMessage);
+
+console.log(decodedMessage);
