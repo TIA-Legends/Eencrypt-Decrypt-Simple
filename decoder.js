@@ -13,3 +13,5 @@ function decode(encodedStr) {
     }
     return decoded
 }
+const encodeMessage = encode("Code by ybtuti");
+const decodeMessage = decode(encodeMessage);
